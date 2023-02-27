@@ -1,0 +1,11 @@
+@import '../../sass/utils/responsiveness.scss';
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 2rem;
+    @include for-tablet-up{
+        flex-direction: row;
+    }
+}

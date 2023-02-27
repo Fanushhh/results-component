@@ -1,0 +1,57 @@
+@import '../../sass/app.scss';
+
+
+.reaction, .memory, .verbal, .visual{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    color:rgba($Dark-gray-blue, 0.5);
+    :first-child{
+        display: flex;
+        gap:.8rem;
+    }
+    .score{
+        color:black;
+        font-weight: $bold;
+        
+        .percentage{
+            color:rgba($Dark-gray-blue, 0.5);
+        }
+    }
+    @include for-tablet-up{
+        max-width: 288px;
+    }
+    
+    
+}
+
+.reaction{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    
+    span{
+        color:$Light-red;
+    }
+}
+.memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    
+    span{
+        color:$Orangey-yellow;
+    }
+}
+.verbal{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+    
+    span{
+        color:$Green-teal;
+    }
+}
+.visual{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    
+    span{
+        color:$Cobalt-blue;
+    }
+}

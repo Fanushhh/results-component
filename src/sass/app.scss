@@ -1,0 +1,24 @@
+@import './utils/resets';
+@import './utils/responsiveness';
+@import './utils/variables';
+
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    @include for-tablet-up{
+        align-items: center;
+        background-color: $Pale-blue;
+    }
+}
+
+
+.app{
+    font-family: $font-family;
+    font-size: $font-size;
+    text-align: center;
+    
+}
