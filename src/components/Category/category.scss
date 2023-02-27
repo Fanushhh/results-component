@@ -8,6 +8,7 @@
     border-radius: 12px;
     font-size: 1rem;
     color:rgba($Dark-gray-blue, 0.5);
+    @include animation(fade-in, 2s, 0);
     :first-child{
         display: flex;
         gap:.8rem;

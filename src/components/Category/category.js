@@ -8,7 +8,7 @@ export default function Category({category, score, icon}){
                 <span>{category}</span>
             </div>
             <div>
-                <p className='score'>{score} <span class="percentage">/ 100</span></p>
+                <p className='score'>{score} <span className="percentage">/ 100</span></p>
             </div>
         </div>
         
