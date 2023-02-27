@@ -4,7 +4,7 @@ export default function Category({category, score, icon}){
     return(
         <div className={category.toLowerCase()}>
             <div>
-                <img src={icon}></img>
+                <img src={icon} alt={category}></img>
                 <span>{category}</span>
             </div>
             <div>
