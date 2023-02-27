@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/results-component/static/css/main.db2570ab.css",
+    "main.js": "/results-component/static/js/main.568cd486.js",
+    "index.html": "/results-component/index.html",
+    "main.db2570ab.css.map": "/results-component/static/css/main.db2570ab.css.map",
+    "main.568cd486.js.map": "/results-component/static/js/main.568cd486.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db2570ab.css",
+    "static/js/main.568cd486.js"
+  ]
+}
